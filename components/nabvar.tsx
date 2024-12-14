@@ -42,19 +42,19 @@ export default function Nabvar() {
                             <nav aria-label="Global">
                                 <ul className="flex items-center gap-6 text-sm">
                                     <li>
-                                        <a className="text-zinc-900 transition hover:text-zinc-900/75 font-semibold text-md" href="#">
+                                        <a className="text-zinc-900 transition hover:text-orange-600/75 font-semibold text-md" href="#">
                                             {t('navbar.home')}
                                         </a>
                                     </li>
 
                                     <li>
-                                        <a className="text-zinc-900 transition hover:text-zinc-900/75 font-semibold text-md" href="#">
+                                        <a className="text-zinc-900 transition hover:text-orange-600/75 font-semibold text-md" href="#">
                                             {t('navbar.service')}
                                         </a>
                                     </li>
 
                                     <li>
-                                        <a className="text-zinc-900 transition hover:text-zinc-900/75 font-semibold text-md" href="#">
+                                        <a className="text-zinc-900 transition hover:text-orange-600/75 font-semibold text-md" href="#">
                                             {t('navbar.contact')}
                                         </a>
                                     </li>
@@ -96,8 +96,8 @@ export default function Nabvar() {
                             </Button>
                         </div>
 
-                        <Sheet>
-                            <SheetTrigger className="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75">
+                        <Sheet >
+                            <SheetTrigger className="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75 md:hidden">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     className="size-5"
@@ -117,19 +117,19 @@ export default function Nabvar() {
                                     <SheetDescription asChild>
                                         <ul className="flex flex-col items-center gap-6 text-xl">
                                             <li>
-                                                <a className="text-zinc-900 transition hover:text-zinc-900/75 font-semibold text-md" href="#">
+                                                <a className="text-zinc-900 transition hover:text-orange-600/75 font-semibold text-md" href="#">
                                                     {t('navbar.home')}
                                                 </a>
                                             </li>
 
                                             <li>
-                                                <a className="text-zinc-900 transition hover:text-zinc-900/75 font-semibold text-md" href="#">
+                                                <a className="text-zinc-900 transition hover:text-orange-600/75 font-semibold text-md" href="#">
                                                     {t('navbar.service')}
                                                 </a>
                                             </li>
 
                                             <li>
-                                                <a className="text-zinc-900 transition hover:text-zinc-900/75 font-semibold text-md" href="#">
+                                                <a className="text-zinc-900 transition hover:text-orange-600/75 font-semibold text-md" href="#">
                                                     {t('navbar.contact')}
                                                 </a>
                                             </li>
