@@ -6,7 +6,7 @@ import Hero from '@/components/interface/hero';
 import Projects from '@/components/interface/proyects';
 import Quote from '@/components/interface/quote';
 
-export default function Home({ params }: { params: { lang: string } }) {
+export default function Home() {
   return (
     <section className='overflow-hidden'>
       <Hero />
